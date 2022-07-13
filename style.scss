@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Karantina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew&display=swap");
+
+$blackColor: #0d0d0d;
+$whiteColor: #f2f2f2;
+$yellowColor: #f2cc0f;
+$greenColor: #8cbf3f;
+$purpleColor: #9453a6;
+
+$headlineFont1: "Karantina", cursive;
+$headlineFont2: "Heebo", sans-serif;
+$textFont: "Noto Serif Hebrew", serif;
+
+#logo-img {
+  max-width: 100px;
+}
+.display-1 {
+  background-color: $purpleColor;
+  text-align: center;
+}
+.h1 {
+  color: $blackColor;
+  font-family: $headlineFont2;
+}
+.p-2 {
+  color: $blackColor;
+  font-family: $textFont;
+}
+#carouselExampleCaptions {
+  width: 100vw;
+  direction: ltr;
+}
+.h5 {
+  font-family: $headlineFont2;
+  color: $blackColor;
+}
+.donors {
+  font-family: $textFont;
+  width: 100vw;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  font-family: $textFont;
+  background-color: #8cbf3f;
+  opacity: 0.5;
+  height: 100px;
+  width: 100%;
+
+  .contact-us-a-link {
+    text-decoration: none;
+    color: $blackColor;
+    font-family: $textFont;
+    background-color: $whiteColor;
+    width: 70px;
+    align-self: center;
+  }
+
+  .editor-copyrights {
+    align-self: flex-end;
+  }
+}
+.contact-us-a-link:hover {
+  color: $purpleColor;
+}
+.carousel-caption {
+  background-color: rgba($color: #0d0d0d, $alpha: 0.4);
+  p {
+    color: $whiteColor;
+  }
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  .h1 {
+    width: 100vw;
+  }
+}
+.contact-us-form {
+  margin-top: 30px;
+  font-family: $textFont;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  box-shadow: -5px 5px 25px 19px rgba(140, 191, 63, 0.7);
+
+  * {
+    margin-top: 5px;
+    width: 40vw;
+    align-self: center;
+  }
+  button {
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  button:hover {
+    background-color: rgba(140, 191, 63, 0.7);
+  }
+}
+#about-img {
+  width: 400px;
+}
+
+.card-body:nth-child(1) {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-body:nth-child(2) {
+}
+.card-footer {
+  background-color: white !important;
+  border-top: none !important;
+}
+.mayor {
+  width: fit-content;
+  margin: auto;
+  box-shadow: 0px 0px 10px 10px rgba(148, 83, 166, 0.3);
+  img {
+    max-width: 80vw;
+  }
+}
+.clearfix {
+  p {
+    margin: 8px;
+  }
+}
+.photos {
+  #media-pics {
+    width: 350px;
+    height: auto;
+  }
+}
+#accordionExample {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 750px) {
+  #about-img {
+    width: 300px;
+    max-width: 80vw;
+  }
+  .media-pics {
+    width: 250px;
+  }
+  #media-pics {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #iframe-div {
+    flex-direction: column;
+  }
+  .the-iframe {
+    width: 350px;
+  }
+}
