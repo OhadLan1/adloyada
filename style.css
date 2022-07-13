@@ -15,6 +15,10 @@
   font-family: "Heebo", sans-serif;
 }
 
+.h2 {
+  font-family: "Karantina", cursive;
+}
+
 .p-2 {
   color: #0d0d0d;
   font-family: "Noto Serif Hebrew", serif;
@@ -95,6 +99,7 @@ footer .editor-copyrights {
   width: 50px;
   margin-top: 10px;
   border-radius: 50px;
+  text-align: center;
 }
 .contact-us-form button:hover {
   background-color: rgba(140, 191, 63, 0.7);

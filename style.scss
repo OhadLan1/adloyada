@@ -23,6 +23,9 @@ $textFont: "Noto Serif Hebrew", serif;
   color: $blackColor;
   font-family: $headlineFont2;
 }
+.h2 {
+  font-family: $headlineFont1;
+}
 .p-2 {
   color: $blackColor;
   font-family: $textFont;
@@ -39,6 +42,7 @@ $textFont: "Noto Serif Hebrew", serif;
   font-family: $textFont;
   width: 100vw;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -97,6 +101,7 @@ footer {
     width: 50px;
     margin-top: 10px;
     border-radius: 50px;
+    text-align: center;
   }
   button:hover {
     background-color: rgba(140, 191, 63, 0.7);
